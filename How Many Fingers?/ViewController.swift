@@ -9,6 +9,47 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    
+    
+    @IBOutlet var guess: UITextField!
+    
+    @IBOutlet var resultsLabel: UILabel!
+    
+    @IBAction func guessButton(sender: AnyObject) {
+        
+        var randomNumber = arc4random_uniform(6)
+        
+        var guessInt = guess.text.toInt()
+        
+        if guessInt != nil {
+            
+            if Int(randomNumber) == guessInt {
+                
+                resultsLabel.text = "You are CORRECT!!!"
+                
+            }
+            
+            else {
+                resultsLabel.text = "Wrong! It was \(randomNumber). TRY AGAIN!"
+            }
+            
+            
+        }
+        
+        else {
+            
+            resultsLabel.text = "Please enter a number from 0 to 5!"
+            
+        }
+        println(guess.text)
+    }
+    
+    
+    
+    
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,8 +59,11 @@ class ViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+        
     }
 
 
+    
+    
 }
 
