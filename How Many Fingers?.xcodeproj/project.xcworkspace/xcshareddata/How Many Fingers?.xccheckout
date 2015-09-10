@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>085B8F2C-6F36-41EF-8E93-D6A8DD058234</string>
+	<key>IDESourceControlProjectName</key>
+	<string>How Many Fingers?</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>34F8AFE769F608E354D0FD6C597EBF4C2BAE9EAE</key>
+		<string>https://github.com/rtaraboo/How-Many-Fingers-.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>How Many Fingers?.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>34F8AFE769F608E354D0FD6C597EBF4C2BAE9EAE</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/rtaraboo/How-Many-Fingers-.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>34F8AFE769F608E354D0FD6C597EBF4C2BAE9EAE</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>34F8AFE769F608E354D0FD6C597EBF4C2BAE9EAE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>How%20Many%20Fingers%3F</string>
+		</dict>
+	</array>
+</dict>
+</plist>
