@@ -156,6 +156,8 @@
 		7314591E1BA09FE0000257FF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = RLDT;
 				TargetAttributes = {
@@ -411,6 +413,7 @@
 				731459471BA09FE0000257FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		731459481BA09FE0000257FF /* Build configuration list for PBXNativeTarget "How Many Fingers?Tests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +422,7 @@
 				7314594A1BA09FE0000257FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

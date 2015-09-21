@@ -20,7 +20,7 @@ class ViewController: UIViewController {
         
         var randomNumber = arc4random_uniform(6)
         
-        var guessInt = guess.text.toInt()
+        var guessInt = Int(guess.text!)
         
         if guessInt != nil {
             
@@ -42,7 +42,7 @@ class ViewController: UIViewController {
             resultsLabel.text = "Please enter a number from 0 to 5!"
             
         }
-        println(guess.text)
+        print(guess.text)
     }
     
     
